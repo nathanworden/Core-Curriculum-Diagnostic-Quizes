@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="quiz1.js"></script>
+
+<!doctype html>
+<html>
+  <head>
+    <title>Question</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('div').addEventListener('click', function(event) {
+          event.stopPropagation();
+          console.log(event);
+          event.preventDefautl();
+        }, true);
+      });
+    </script>
+  </head>
+  <body>
+    <div>
+      <a href="https://www.launchschool.com">a link</a>
+    </div>
+  </body>
+</html>
