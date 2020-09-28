@@ -14,5 +14,5 @@ $(function() {
   
   console.log(value2 == value1);
   console.log(typeof value2);
-  console.log(typeof value1);
+  console.log(typeof value1);;
 });
